@@ -1,0 +1,17 @@
+[project]
+name = "paddle"
+version = "0.1.0"
+description = "PaddleOcr预训练模型文件转为onnx"
+authors = [
+    { name = "achieve_dream", email = "wulei7217@gmail.com" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = "<= 3.9"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = [
+    "paddle2onnx>=1.0.6",
+]
